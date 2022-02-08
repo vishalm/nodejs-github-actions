@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+## Welcome to nodejs-github-actions Pages
 
-You can use the [editor on GitHub](https://github.com/vishalm/nodejs-github-actions/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Branching Strategy ![githubactions](https://user-images.githubusercontent.com/1488416/152945595-8a556a2e-d7b4-4005-9693-71fe05faa9a5.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Demo Repo
 
-### Markdown
+ * PR Checks : Unit Test, SAST (CodeQL, OSSAR), Contributor bot
+ * Release Package using Github Packages: packages
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Important Actions Link
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vishalm/nodejs-github-actions/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+ * Github Actions Example: https://github.com/vishalm/nodejs-github-actions/actions
+ * Github PR Actions Example: https://github.com/vishalm/nodejs-github-actions/pull/1
+ * Github Packages Publish (release): https://github.com/vishalm/nodejs-github-actions/actions/runs/1810741021
+ * Github SAST: CodeQL: https://github.com/vishalm/nodejs-github-actions/actions/workflows/codeql-analysis.yml
+ * Github SAST: OSSAR: https://github.com/vishalm/nodejs-github-actions/actions/workflows/ossar-analysis.yml
+ * First-time contributor Bot Example: https://github.com/vishalm/nodejs-github-actions/actions/workflows/greetings.yml
