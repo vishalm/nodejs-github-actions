@@ -1,5 +1,5 @@
 {
-    "name": "nodejs-github-actions",
+    "name": "@vishalm/nodejs-github-actions",
     "version": "1.0.0",
     "description": "demo for nodejs github actions",
     "main": "index.js",
@@ -8,12 +8,15 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/vishalm/nodejs-github-actions.git"
+      "url": "git://github.com/vishalm/nodejs-github-actions.git"
     },
     "author": "vishal",
     "license": "MIT",
     "bugs": {
       "url": "https://github.com/vishalm/nodejs-github-actions/issues"
+    },
+    "publishConfig": {
+      "registry":"https://npm.pkg.github.com"
     },
     "homepage": "https://github.com/vishalm/nodejs-github-actions#readme",
     "dependencies": {
